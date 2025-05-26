@@ -51,6 +51,26 @@ html {
        align-items: center!important;
        justify-content: center!important;
     }
+     #heroCarousel .carousel-item {
+    height: 50vh; /* Adjust this as needed */
+  }
+
+  #heroCarousel .carousel-item img {
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .carousel-caption {
+    padding: 1rem !important; /* Reduce padding on mobile */
+  }
+
+  .carousel-caption h2 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
   }
 
 /*  */
@@ -408,3 +428,28 @@ html {
   }
 }
 
+
+
+/*  */
+@media (max-width: 576px) {
+  #heroCarousel .carousel-item {
+    height: 60vh; /* Adjust this as needed */
+  }
+
+  #heroCarousel .carousel-item img {
+    height: 60vh;
+    object-fit: cover;
+  }
+
+  .carousel-caption {
+    padding: 1rem !important; /* Reduce padding on mobile */
+  }
+
+  .carousel-caption h2 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+}
